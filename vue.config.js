@@ -26,8 +26,6 @@ module.exports = defineConfig({
       };
       return args;
     });
-    // Add entry point for the VN game
-    config.entry('game').add('./game/index.js');
   },
   pwa: {
     name: 'Millie 6-Months',
