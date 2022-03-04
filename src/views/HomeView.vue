@@ -42,7 +42,7 @@
       </v-container>
     </div>
     <div class="section mb-12 mural">
-      <v-container class="section-grid section-box">
+      <v-container class="section-grid">
         <v-row no-gutters class="mb-4">
           <v-col cols="12">
             <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
@@ -55,16 +55,16 @@
             </h2>
           </v-col>
         </v-row>
-        <v-row no-gutters class="px-8 pb-4">
+        <v-row no-gutters class="px-16">
           <v-col>
-            <v-img src="https://mumei500k.fromyour.fans/img/mural1.b34eb720.png" />
+            <v-img src="https://birthday.ennaalouette.com/img/mural.6c5dad85.jpg" />
           </v-col>
         </v-row>
       </v-container>
     </div>
     <div class="section mb-12 timeline">
       <v-container class="section-grid">
-        <v-row no-gutters class="mb-4">
+        <v-row no-gutters class="mb-8">
           <v-col cols="12">
             <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
               <img
@@ -76,15 +76,161 @@
             </h2>
           </v-col>
         </v-row>
+        <v-row no-gutters class="rewind-item">
+          <v-col>
+            <div class="rewind-left text-right">
+              <iframe title="feature-video" class="rewind-frame"
+                width="640" height="360"
+                src="https://www.youtube.com/embed/gx7AJmpHykc"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="rewind-center">
+              <div class="rewind-dot"></div>
+            </div>
+            <div class="rewind-right white--text">
+              <div class="rewind-texts">
+                <p class="my-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+                  <em>- Zer0Pendragon</em>
+                </p>
+                <p class="my-8">
+                  Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
+                  Quisque laoreet ligula lectus, vel malesuada est vehicula at.
+                  <em>- Izendale</em>
+                </p>
+                <p class="my-8">
+                  In nec scelerisque quam, sed ultricies ligula.
+                  <em>- Pinkerton</em>
+                </p>
+              </div>
+            </div>
+          </v-col>
+        </v-row>
+        <v-row no-gutters class="rewind-item">
+          <v-col>
+            <div class="rewind-left white--text text-right">
+              <div class="rewind-texts">
+                <p class="my-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+                  <em>- Zer0Pendragon</em>
+                </p>
+                <p class="my-8">
+                  Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
+                  Quisque laoreet ligula lectus, vel malesuada est vehicula at.
+                  <em>- Izendale</em>
+                </p>
+                <p class="my-8">
+                  In nec scelerisque quam, sed ultricies ligula.
+                  <em>- Pinkerton</em>
+                </p>
+              </div>
+            </div>
+            <div class="rewind-center">
+              <div class="rewind-dot"></div>
+            </div>
+            <div class="rewind-right text-left">
+              <iframe title="feature-video" class="rewind-frame"
+                width="640" height="360"
+                src="https://www.youtube.com/embed/gx7AJmpHykc"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </v-col>
+        </v-row>
+        <v-row no-gutters class="rewind-item">
+          <v-col>
+            <div class="rewind-left text-right">
+              <iframe title="feature-video" class="rewind-frame"
+                width="640" height="360"
+                src="https://www.youtube.com/embed/gx7AJmpHykc"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="rewind-center">
+              <div class="rewind-dot"></div>
+            </div>
+            <div class="rewind-right white--text">
+              <div class="rewind-texts">
+                <p class="my-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+                  <em>- Zer0Pendragon</em>
+                </p>
+                <p class="my-8">
+                  Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
+                  Quisque laoreet ligula lectus, vel malesuada est vehicula at.
+                  <em>- Izendale</em>
+                </p>
+                <p class="my-8">
+                  In nec scelerisque quam, sed ultricies ligula.
+                  <em>- Pinkerton</em>
+                </p>
+              </div>
+            </div>
+          </v-col>
+        </v-row>
+        <v-row no-gutters class="rewind-item">
+          <v-col>
+            <div class="rewind-left white--text text-right">
+              <div class="rewind-texts">
+                <p class="my-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+                  <em>- Zer0Pendragon</em>
+                </p>
+                <p class="my-8">
+                  Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
+                  Quisque laoreet ligula lectus, vel malesuada est vehicula at.
+                  <em>- Izendale</em>
+                </p>
+                <p class="my-8">
+                  In nec scelerisque quam, sed ultricies ligula.
+                  <em>- Pinkerton</em>
+                </p>
+              </div>
+            </div>
+            <div class="rewind-center">
+              <div class="rewind-dot"></div>
+            </div>
+            <div class="rewind-right text-left">
+              <iframe title="feature-video" class="rewind-frame"
+                width="640" height="360"
+                src="https://www.youtube.com/embed/gx7AJmpHykc"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
+    <div class="section mb-12 messages">
+      <v-container class="section-grid section-box">
+        <v-row no-gutters class="mb-4">
+          <v-col cols="12">
+            <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
+              <img
+                src="../assets/img/section-messages.png" height="60"
+                alt="Message Cards" />
+            </h1>
+            <h2 class="grey--text text-center pa-0 ma-0">
+              Heartfelt messages to celebrate the milestone
+            </h2>
+          </v-col>
+        </v-row>
         <v-row no-gutters class="">
-          <v-col cols="5">
-            1
-          </v-col>
-          <v-col cols="2">
-            2
-          </v-col>
-          <v-col cols="5">
-            3
+          <v-col>
+            <!--  -->
           </v-col>
         </v-row>
       </v-container>
@@ -99,16 +245,13 @@
                 alt="Art Gallery" />
             </h1>
             <h2 class="grey--text text-center pa-0 ma-0">
-              art section description
+              Some Famillie celebrate 6 months through artworks
             </h2>
           </v-col>
         </v-row>
         <v-row no-gutters class="">
-          <v-col cols="6">
-            1
-          </v-col>
-          <v-col cols="6">
-            2
+          <v-col>
+            <!--  -->
           </v-col>
         </v-row>
       </v-container>
@@ -182,6 +325,65 @@ export default {
   }
   .hero-text {
     white-space: pre-line;
+  }
+}
+.timeline {
+  .rewind-item {
+    position:relative;
+    height:400px;
+    .rewind-left {
+      position:absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      width:50%;
+      padding-right:50px;
+      .rewind-texts {
+        right:50px;
+      }
+    }
+    .rewind-center {
+      width:0px;
+      background:#fcc;
+      position:absolute;
+      left:50%;
+      top:0;
+      bottom:0;
+      margin-left:-10px;
+      border-left:4px solid #c0c0c0;
+      .rewind-dot {
+        width:30px;
+        height:30px;
+        background:#0c1a28;
+        border-radius:20px;
+        border:4px solid #c0c0c0;
+        position:absolute;
+        top:50%;
+        margin-left:-17px;
+      }
+    }
+    .rewind-right{
+      position:absolute;
+      right:0;
+      top:0;
+      bottom:0;
+      width:50%;
+      padding-left:50px;
+      .rewind-texts {
+        left:50px;
+      }
+    }
+    .rewind-frame {
+      margin:20px;
+      width:640px;
+      height:360px;
+      max-width:90%;
+    }
+    .rewind-texts {
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+    }
   }
 }
 </style>
