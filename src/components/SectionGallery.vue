@@ -14,7 +14,28 @@
     </v-row>
     <v-row no-gutters class="">
       <v-col>
-        <!--  -->
+        <div v-masonry="'gallery'" transition-duration="0.3s" item-selector=".card" stagger="0s">
+          <div v-masonry-tile class="card">
+            <a href="https://twitter.com/Nashiina2001/status/1489221995380486145" target="_blank">
+              <img src="@/assets/art/Nashiina_01.jpeg" alt="@Nashiina2001" />
+            </a>
+            <div class="artist white--text text-center">@Nashiina2001</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <a href="https://twitter.com/devildash27/status/1492514821711228931" target="_blank">
+              <img src="@/assets/art/devildash27_01.jpeg" alt="@devildash27" />
+            </a>
+            <div class="artist white--text text-center">@devildash27</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/Nashiina_02.gif" alt="" />
+            <div class="artist white--text text-center">@Nashiina2001</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/Nashiina_03.png" alt="" />
+            <div class="artist white--text text-center">@Nashiina2001</div>
+          </div>
+        </div>
       </v-col>
     </v-row>
   </v-container>
@@ -30,5 +51,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.card {
+  background:#1a1a1a;
+  position:relative;
+  min-height:100px;
+  width:24%;
+  margin:10px 0.5%;
+  padding:10px 10px 24px 10px;
+  border:2px solid #0f0f0f;
+  img {
+    width:100%;
+  }
+  .artist {
+    position:absolute;
+    bottom:0;
+    left:2px;
+    right:2px;
+    height:30px;
+    line-height:30px;
+    font-size:20px;
+  }
+}
 
+@media only screen and (max-width: 1800px) {
+  .card {
+    width:32%;
+    margin:10px 0.5%;
+  }
+}
+@media only screen and (max-width: 1264px) {
+  .card {
+    width:48%;
+    margin:10px 1%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .card {
+    width:96%;
+    margin:10px 2%;
+  }
+}
 </style>
