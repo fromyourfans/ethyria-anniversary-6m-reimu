@@ -47,6 +47,12 @@ export default {
   data: () => ({
     //
   }),
+  mounted() {
+    this.$nextTick(() => {
+      setTimeout(() => { this.$redrawVueMasonry('gallery'); }, 1000);
+      setTimeout(() => { this.$redrawVueMasonry('gallery'); }, 5000);
+    });
+  },
 };
 </script>
 
