@@ -12,11 +12,14 @@
     <div class="section mb-12">
       <SectionTimeline/>
     </div>
-    <div class="section mb-12 messages">
+    <div class="section mb-12">
       <SectionMessages/>
     </div>
-    <div class="section mb-8 artworks">
+    <div class="section mb-12">
       <SectionGallery/>
+    </div>
+    <div class="section mb-12">
+      <SectionCredits/>
     </div>
   </div>
 </template>
@@ -27,6 +30,7 @@ import SectionImage from '@/components/SectionImage.vue';
 import SectionTimeline from '@/components/SectionTimeline.vue';
 import SectionMessages from '@/components/SectionMessages.vue';
 import SectionGallery from '@/components/SectionGallery.vue';
+import SectionCredits from '@/components/SectionCredits.vue';
 
 export default {
   name: 'HomeView',
@@ -36,6 +40,7 @@ export default {
     SectionTimeline,
     SectionMessages,
     SectionGallery,
+    SectionCredits,
   },
 };
 </script>
