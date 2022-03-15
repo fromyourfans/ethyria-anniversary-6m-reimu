@@ -35,6 +35,22 @@
             <img src="@/assets/art/Nashiina_03.png" alt="" />
             <div class="artist white--text text-center">@Nashiina2001</div>
           </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/lostlittle_one_01.png" alt="" />
+            <div class="artist white--text text-center">lostlittle_one</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/Leef_01.png" alt="" />
+            <div class="artist white--text text-center">Leef</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/Deskun_01.png" alt="" />
+            <div class="artist white--text text-center">Deskun</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/Gyu_01.png" alt="" />
+            <div class="artist white--text text-center">Gyu#1512</div>
+          </div>
         </div>
       </v-col>
     </v-row>
