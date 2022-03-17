@@ -47,29 +47,18 @@ export default {
 
 <style lang="scss" scoped>
 #page-home {
-  background-color:#0c1a28;
+  background-color:#162636;
+  background-image:url('../assets/img/background.png');
+  background-repeat: repeat;
   min-height:100vh;
 }
 .header {
   width:100%;
-  height:720px;
-  background-color:#d0d0d0;
-  background-image:url('https://yt3.ggpht.com/81zhps9cD3zvRCK6dbf9iwtiC0yi97n8a-I-PeBvAj6WzkqkrlkvT0JbmzuzquPGM9E5hVwuPg=w1280');
+  height:300px;
+  background-image:url('../assets/img/banner.png');
   background-position:50%;
   background-repeat:no-repeat;
   position:absolute;
-  top:-270px;
-  .fade {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background:
-      linear-gradient(to top, #0c1a28 0%, rgb(12, 26, 40, 0) 100px),
-      linear-gradient(to left, #0c1a28 calc(50% - 640px), rgb(12, 26, 40, 0) calc(50% - 540px)),
-      linear-gradient(to right, #0c1a28 calc(50% - 640px), rgb(12, 26, 40, 0) calc(50% - 540px));
-  }
 }
 .section {
   position:relative;

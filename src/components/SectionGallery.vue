@@ -8,7 +8,7 @@
             alt="Art Gallery" />
         </h1>
         <h2 class="grey--text text-center pa-0 ma-0">
-          Some Famillie celebrate 6 months through artworks
+          Some Famillie celebrate 6 months and 200K through artworks
         </h2>
       </v-col>
     </v-row>
@@ -19,21 +19,21 @@
             <a href="https://twitter.com/Nashiina2001/status/1489221995380486145" target="_blank">
               <img src="@/assets/art/Nashiina_01.jpeg" alt="@Nashiina2001" />
             </a>
-            <div class="artist white--text text-center">@Nashiina2001</div>
+            <div class="artist white--text text-center">Nashiina</div>
           </div>
           <div v-masonry-tile class="card">
             <a href="https://twitter.com/devildash27/status/1492514821711228931" target="_blank">
               <img src="@/assets/art/devildash27_01.jpeg" alt="@devildash27" />
             </a>
-            <div class="artist white--text text-center">@devildash27</div>
+            <div class="artist white--text text-center">Devil-kun</div>
           </div>
           <div v-masonry-tile class="card">
             <img src="@/assets/art/Nashiina_02.gif" alt="" />
-            <div class="artist white--text text-center">@Nashiina2001</div>
+            <div class="artist white--text text-center">Nashiina</div>
           </div>
           <div v-masonry-tile class="card">
             <img src="@/assets/art/Nashiina_03.png" alt="" />
-            <div class="artist white--text text-center">@Nashiina2001</div>
+            <div class="artist white--text text-center">Nashiina</div>
           </div>
           <div v-masonry-tile class="card">
             <img src="@/assets/art/lostlittle_one_01.png" alt="" />
@@ -49,7 +49,7 @@
           </div>
           <div v-masonry-tile class="card">
             <img src="@/assets/art/Gyu_01.png" alt="" />
-            <div class="artist white--text text-center">Gyu#1512</div>
+            <div class="artist white--text text-center">@Kadabar_VIM</div>
           </div>
         </div>
       </v-col>

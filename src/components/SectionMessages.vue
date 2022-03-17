@@ -7,9 +7,6 @@
             src="../assets/img/section-messages.png" height="60"
             alt="Message Cards" />
         </h1>
-        <!-- <h2 class="grey--text text-center pa-0 ma-0">
-          Heartfelt messages from the Famillie
-        </h2> -->
       </v-col>
     </v-row>
     <v-row no-gutters>
@@ -85,13 +82,13 @@ export default {
     white-space: pre-line;
     font-weight:bold;
     padding:5px 10px;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color:rgba(255, 255, 255, 0.8);
     border-radius:10px;
-    color:#fff;
+    color:#000;
     text-shadow:
-      0px 0px 3px #000,
-      0px 0px 3px #000,
-      0px 0px 15px #28615c;
+      0px 0px 3px #fff,
+      0px 0px 3px #fff,
+      0px 0px 15px #ffcc00;
   }
 }
 
