@@ -13,15 +13,11 @@
       <v-col cols="6"
         class="text-right white--text text-h5 text--darken-1 pt-4 pr-8 pl-4 hero-text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-        </p>
-        <p>
-          Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-          Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-        </p>
-        <p>
-          In nec scelerisque quam, sed ultricies ligula.
+          Happy 6 month anniversary Millie!
+          The FaMillie have gotten together to create this incredible website filled with
+          clips, art, and messages just for you!
+          From the bottom of our hearts, thank you for bringing joy to
+          our days and we hope you enjoy everything!
         </p>
       </v-col>
       <v-col cols="6" class="pr-8">

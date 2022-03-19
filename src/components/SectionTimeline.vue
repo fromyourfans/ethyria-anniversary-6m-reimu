@@ -15,9 +15,10 @@
     <v-row no-gutters class="rewind-item">
       <v-col>
         <div class="rewind-left text-right">
+          <!-- OCTUBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/-VMSX4pujvc"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -28,7 +29,7 @@
         </div>
         <div class="rewind-right white--text">
           <div class="rewind-texts">
-            <p class="my-8">
+            <!-- <p class="my-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
               <em>- Zer0Pendragon</em>
@@ -41,7 +42,7 @@
             <p class="my-8">
               In nec scelerisque quam, sed ultricies ligula.
               <em>- Pinkerton</em>
-            </p>
+            </p> -->
           </div>
         </div>
       </v-col>
@@ -50,29 +51,17 @@
       <v-col>
         <div class="rewind-left white--text text-right">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+
           </div>
         </div>
         <div class="rewind-center">
           <div class="rewind-dot"></div>
         </div>
         <div class="rewind-right text-left">
+          <!-- NOVEMBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/Vg0r8xuYrA4"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -83,9 +72,10 @@
     <v-row no-gutters class="rewind-item">
       <v-col>
         <div class="rewind-left text-right">
+          <!-- DECEMBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/bHpSRbuUnko"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -96,20 +86,7 @@
         </div>
         <div class="rewind-right white--text">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+
           </div>
         </div>
       </v-col>
@@ -118,29 +95,61 @@
       <v-col>
         <div class="rewind-left white--text text-right">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+
           </div>
         </div>
         <div class="rewind-center">
           <div class="rewind-dot"></div>
         </div>
         <div class="rewind-right text-left">
+          <!-- JANUARY -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/eC0FOfd_dN8"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </v-col>
+    </v-row>
+    <v-row no-gutters class="rewind-item">
+      <v-col>
+        <div class="rewind-left text-right">
+          <!-- FEBRUARY -->
+          <iframe title="feature-video" class="rewind-frame"
+            width="640" height="360"
+            src="https://www.youtube.com/embed/2CeGqjGyb_s"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="rewind-center">
+          <div class="rewind-dot"></div>
+        </div>
+        <div class="rewind-right white--text">
+          <div class="rewind-texts">
+
+          </div>
+        </div>
+      </v-col>
+    </v-row>
+    <v-row no-gutters class="rewind-item">
+      <v-col>
+        <div class="rewind-left white--text text-right">
+          <div class="rewind-texts">
+
+          </div>
+        </div>
+        <div class="rewind-center">
+          <div class="rewind-dot"></div>
+        </div>
+        <div class="rewind-right text-left">
+          <!-- MARCH -->
+          <iframe title="feature-video" class="rewind-frame"
+            width="640" height="360"
+            src="https://www.youtube.com/embed/wOvcZo99itQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
