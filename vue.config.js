@@ -2,6 +2,7 @@ const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
+  publicPath: '/ethyria-anniversary-6m-reimu',
   outputDir: path.resolve(__dirname, 'docs'),
   transpileDependencies: [
     'vuetify',
@@ -11,24 +12,24 @@ module.exports = defineConfig({
     // HTML Title used for OpenGraph linters (social media links)
     config.plugin('html').tap((args) => {
       // eslint-disable-next-line no-param-reassign
-      args[0].title = 'Millie 6-Months and 200K';
+      args[0].title = 'Reimu 6-Month Anniversary';
       // eslint-disable-next-line no-param-reassign
       args[0].meta = {
-        description: 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
-        'og:title': 'Millie 6-Months and 200K',
+        description: 'Happy 6th Month Anniversary Reimu!',
+        'og:title': 'Reimu 6-Month Anniversary',
         'og:type': 'website',
-        'og:description': 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
+        'og:description': 'Happy 6th Month Anniversary Reimu!',
         // 'og:image': 'https://birthday.ennaalouette.com/ogimage.png',
         'twitter:card': 'summary_large_image',
-        'twitter:title': 'Millie 6-Months and 200K',
-        'twitter:description': 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
+        'twitter:title': 'Reimu 6-Month Anniversary',
+        'twitter:description': 'Happy 6th Month Anniversary Reimu!',
         // 'twitter:image': 'https://birthday.ennaalouette.com/ogimage.png',
       };
       return args;
     });
   },
   pwa: {
-    name: 'Millie 6-Months and 200K',
+    name: 'Reimu 6-Month Anniversary',
     themeColor: '#102471',
     workboxOptions: {
       skipWaiting: true,
@@ -40,9 +41,9 @@ module.exports = defineConfig({
     },
     assetsVersion: '2022_03_19_00_00',
     manifestOptions: {
-      name: 'Millie 6 Months and 200K',
-      short_name: 'Millie 6m and 200K',
-      description: 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
+      name: 'Reimu 6 Months',
+      short_name: 'Reimu 6M',
+      description: 'Happy 6th Month Anniversary Reimu!',
       display: 'standalone',
       orientation: 'landscape',
       background_color: '#ffffff',

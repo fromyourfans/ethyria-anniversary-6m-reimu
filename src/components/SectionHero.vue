@@ -1,10 +1,10 @@
 <template>
-  <v-container class="section-grid section-box pb-8">
+  <v-container class="section-grid section-box pb-8 mb-16">
     <v-row no-gutters class="mb-4">
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 mx-0 my-0">
           <img
-            src="../assets/img/section-happy-congrats.png" height="90"
+            src="../assets/img/section-happy.png" height="120"
             alt="Happy 6-Months and Congrats on 200K Millie!" />
         </h1>
       </v-col>
@@ -13,17 +13,13 @@
       <v-col cols="6"
         class="text-right white--text text-h5 text--darken-1 pt-4 pr-8 pl-4 hero-text">
         <p>
-          Happy 6 month anniversary Millie!
-          The FaMillie have gotten together to create this incredible website filled with
-          clips, art, and messages just for you!
-          From the bottom of our hearts, thank you for bringing joy to
-          our days and we hope you enjoy everything!
+
         </p>
       </v-col>
       <v-col cols="6" class="pr-8">
         <iframe title="feature-video"
           width="100%" height="330"
-          src="https://www.youtube.com/embed/gx7AJmpHykc"
+          src="https://www.youtube.com/embed/fZsRQdLLhIQ"
           frameborder="0"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
           allowfullscreen>

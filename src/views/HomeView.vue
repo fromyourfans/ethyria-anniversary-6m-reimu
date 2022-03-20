@@ -1,8 +1,6 @@
 <template>
   <div id="page-home" class="pt-2 pb-4">
-    <div class="header">
-      <div class="fade"></div>
-    </div>
+    <div class="header"></div>
     <div class="section mb-4">
       <SectionHero/>
     </div>
@@ -47,7 +45,7 @@ export default {
 
 <style lang="scss" scoped>
 #page-home {
-  background-color:#162636;
+  background-color:#505050;
   background-image:url('../assets/img/background.png');
   background-repeat: repeat;
   min-height:100vh;
@@ -55,7 +53,7 @@ export default {
 .header {
   width:100%;
   height:300px;
-  background-image:url('../assets/img/banner.png');
+  // background-image:url('../assets/img/banner.png');
   background-position:50%;
   background-repeat:no-repeat;
   position:absolute;
@@ -65,13 +63,10 @@ export default {
   .section-grid {
     min-height:400px;
     &.section-box {
-      background:
-        url('../assets/img/stitch-h.png') repeat-x,
-        url('../assets/img/stitch-v.png') repeat-y;
-      background-color:rgb(93, 89, 96, 0.95);
-      border-color:#41d0c5;
-      border-right:4px solid #41d0c5;
-      border-bottom:4px solid #41d0c5;
+      background-color:rgb(200, 200, 200, 0.75);
+      border-color:#B90B4A;
+      border-right:4px solid #B90B4A;
+      border-bottom:4px solid #B90B4A;
     }
   }
 }

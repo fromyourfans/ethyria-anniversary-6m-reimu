@@ -4,11 +4,11 @@
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
           <img
-            src="../assets/img/section-rewind.png" height="60"
+            src="../assets/img/section-rewind.png" height="80"
             alt="Rewind" />
         </h1>
         <h2 class="grey--text text-center pa-0 ma-0">
-          Looking back to the fun and amazing moments we had with Millie
+          Looking back to the fun and amazing moments we had with Reimu
         </h2>
       </v-col>
     </v-row>
@@ -18,7 +18,7 @@
           <!-- OCTUBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/-VMSX4pujvc"
+            src="https://www.youtube.com/embed/fZsRQdLLhIQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -54,7 +54,7 @@
           <!-- NOVEMBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/Vg0r8xuYrA4"
+            src="https://www.youtube.com/embed/fZsRQdLLhIQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -68,7 +68,7 @@
           <!-- DECEMBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/k9nwJ8ZBhSU"
+            src="https://www.youtube.com/embed/fZsRQdLLhIQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -104,7 +104,7 @@
           <!-- JANUARY -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/eC0FOfd_dN8"
+            src="https://www.youtube.com/embed/fZsRQdLLhIQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -118,7 +118,7 @@
           <!-- FEBRUARY -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/2CeGqjGyb_s"
+            src="https://www.youtube.com/embed/fZsRQdLLhIQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -154,7 +154,7 @@
           <!-- MARCH -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/wOvcZo99itQ"
+            src="https://www.youtube.com/embed/fZsRQdLLhIQ"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -243,37 +243,25 @@ export default {
 }
 
 .card {
-  background:#1a1a1a;
   position:relative;
-  padding:10px;
   min-height:100px;
   width:100%;
+  margin:10px 0.5%;
+  border-radius:10px;
   background-repeat: repeat-y;
   background-size: contain;
-  &.card-style-1 { background:url('../assets/img/card-01.png'); }
-  &.card-style-2 { background:url('../assets/img/card-02.png'); }
-  &.card-style-3 { background:url('../assets/img/card-03.png'); }
-  &.card-style-4 { background:url('../assets/img/card-04.png'); }
-  &.card-style-5 { background:url('../assets/img/card-05.png'); }
-  &.card-style-6 { background:url('../assets/img/card-06.png'); }
   .card-name {
-    color:#343c75;
+    color:#fff;
     font-weight:bold;
-    text-shadow:
-      0px 0px 3px #fff,
-      0px 0px 3px #fff,
-      1px 1px 2px #fff;
+    text-shadow:0px 0px 3px #000, 0px 0px 6px #000;
   }
   .card-text {
     white-space: pre-line;
     font-weight:bold;
     padding:5px 10px;
-    background-color:rgba(255, 255, 255, 0.8);
+    background:#B90B4A;
     border-radius:10px;
-    color:#000;
-    max-height:280px;
-    overflow-y:auto;
-    overflow-x:hidden;
+    color:#fff;
   }
 }
 </style>
