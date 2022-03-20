@@ -14,7 +14,7 @@
     </v-row>
     <v-row no-gutters class="px-16">
       <v-col>
-        <v-img src="https://birthday.ennaalouette.com/img/mural.6c5dad85.jpg" />
+        <v-img src="../assets/mural.jpg" />
       </v-col>
     </v-row>
   </v-container>
