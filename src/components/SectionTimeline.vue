@@ -28,21 +28,11 @@
           <div class="rewind-dot"></div>
         </div>
         <div class="rewind-right white--text">
-          <div class="rewind-texts">
-            <!-- <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p> -->
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[0].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[0].message}}</div>
+            </div>
           </div>
         </div>
       </v-col>
@@ -50,8 +40,11 @@
     <v-row no-gutters class="rewind-item">
       <v-col>
         <div class="rewind-left white--text text-right">
-          <div class="rewind-texts">
-
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[1].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[1].message}}</div>
+            </div>
           </div>
         </div>
         <div class="rewind-center">
@@ -75,7 +68,7 @@
           <!-- DECEMBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/bHpSRbuUnko"
+            src="https://www.youtube.com/embed/k9nwJ8ZBhSU"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -85,8 +78,11 @@
           <div class="rewind-dot"></div>
         </div>
         <div class="rewind-right white--text">
-          <div class="rewind-texts">
-
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[2].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[2].message}}</div>
+            </div>
           </div>
         </div>
       </v-col>
@@ -94,8 +90,11 @@
     <v-row no-gutters class="rewind-item">
       <v-col>
         <div class="rewind-left white--text text-right">
-          <div class="rewind-texts">
-
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[3].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[3].message}}</div>
+            </div>
           </div>
         </div>
         <div class="rewind-center">
@@ -129,8 +128,11 @@
           <div class="rewind-dot"></div>
         </div>
         <div class="rewind-right white--text">
-          <div class="rewind-texts">
-
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[4].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[4].message}}</div>
+            </div>
           </div>
         </div>
       </v-col>
@@ -138,8 +140,11 @@
     <v-row no-gutters class="rewind-item">
       <v-col>
         <div class="rewind-left white--text text-right">
-          <div class="rewind-texts">
-
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[5].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[5].message}}</div>
+            </div>
           </div>
         </div>
         <div class="rewind-center">
@@ -164,8 +169,17 @@
 export default {
   props: [],
   data: () => ({
-    //
+    cards: null,
   }),
+  mounted() {
+    this.$root.$on('timelineCards', (cards) => {
+      this.cards = cards;
+      this.$nextTick(() => {
+        this.$forceUpdate();
+      });
+      // console.log(a.map((v) => v.name));
+    });
+  },
 };
 </script>
 
@@ -225,6 +239,41 @@ export default {
     position:absolute;
     top:50%;
     transform:translateY(-50%);
+  }
+}
+
+.card {
+  background:#1a1a1a;
+  position:relative;
+  padding:10px;
+  min-height:100px;
+  width:100%;
+  background-repeat: repeat-y;
+  background-size: contain;
+  &.card-style-1 { background:url('../assets/img/card-01.png'); }
+  &.card-style-2 { background:url('../assets/img/card-02.png'); }
+  &.card-style-3 { background:url('../assets/img/card-03.png'); }
+  &.card-style-4 { background:url('../assets/img/card-04.png'); }
+  &.card-style-5 { background:url('../assets/img/card-05.png'); }
+  &.card-style-6 { background:url('../assets/img/card-06.png'); }
+  .card-name {
+    color:#343c75;
+    font-weight:bold;
+    text-shadow:
+      0px 0px 3px #fff,
+      0px 0px 3px #fff,
+      1px 1px 2px #fff;
+  }
+  .card-text {
+    white-space: pre-line;
+    font-weight:bold;
+    padding:5px 10px;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius:10px;
+    color:#000;
+    max-height:280px;
+    overflow-y:auto;
+    overflow-x:hidden;
   }
 }
 </style>

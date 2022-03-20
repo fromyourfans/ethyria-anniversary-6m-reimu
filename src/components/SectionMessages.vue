@@ -34,6 +34,22 @@ export default {
     source: 'https://vtubertools.sfo3.digitaloceanspaces.com/tribute/millie6m.json',
     cards: [],
   }),
+  methods: {
+    shuffleCards() {
+      for (let i = this.cards.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        // eslint-disable-next-line no-param-reassign
+        [this.cards[i], this.cards[j]] = [this.cards[j], this.cards[i]];
+      }
+    },
+    reSortCards() {
+      this.cards = this.cards.sort((a, b) => {
+        if (a.time > b.time) return 1;
+        if (a.time < b.time) return -1;
+        return 0;
+      });
+    },
+  },
   mounted() {
     // Load data
     (async () => {
@@ -41,13 +57,19 @@ export default {
       const data = fetchSource && fetchSource.data ? fetchSource.data : {};
       this.cards = Object.values(data.messages)
         .sort((a, b) => a.time - b.time);
-      this.$nextTick(() => {
-        twemoji.parse(document.body);
-        this.$redrawVueMasonry('bdaycards');
-        setTimeout(() => {
+      setTimeout(() => {
+        this.shuffleCards();
+        this.$root.$emit('timelineCards', this.cards.slice(0, 6));
+        this.cards = this.cards.slice(6);
+        this.reSortCards();
+        this.$nextTick(() => {
+          twemoji.parse(document.body);
           this.$redrawVueMasonry('bdaycards');
-        }, 1200);
-      });
+          setTimeout(() => {
+            this.$redrawVueMasonry('bdaycards');
+          }, 1200);
+        });
+      }, 1000);
     })();
   },
 };
@@ -85,10 +107,10 @@ export default {
     background-color:rgba(255, 255, 255, 0.8);
     border-radius:10px;
     color:#000;
-    text-shadow:
-      0px 0px 3px #fff,
-      0px 0px 3px #fff,
-      0px 0px 15px #ffcc00;
+    // text-shadow:
+    //   0px 0px 3px #fff,
+    //   0px 0px 3px #fff,
+    //   0px 0px 15px #ffcc00;
   }
 }
 
