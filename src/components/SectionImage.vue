@@ -1,5 +1,5 @@
 <template>
-  <v-container class="section-grid section-box">
+  <v-container class="section-grid">
     <v-row no-gutters class="mb-4">
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
@@ -9,7 +9,7 @@
         </h1>
       </v-col>
     </v-row>
-    <v-row no-gutters class="px-16 pb-8">
+    <v-row no-gutters class="px-16">
       <v-col>
         <v-img src="../assets/mural.jpg" />
       </v-col>
