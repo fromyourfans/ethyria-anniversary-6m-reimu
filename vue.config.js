@@ -39,7 +39,7 @@ module.exports = defineConfig({
         /(.*).js.map/g,
       ],
     },
-    assetsVersion: '2022_03_19_00_00',
+    assetsVersion: '2022_03_30_00_00',
     manifestOptions: {
       name: 'Reimu 6 Months',
       short_name: 'Reimu 6M',
