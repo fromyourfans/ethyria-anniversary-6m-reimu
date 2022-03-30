@@ -1,5 +1,5 @@
 <template>
-  <v-container class="section-grid section-box">
+  <v-container class="section-grid">
     <v-row no-gutters>
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">

@@ -7,7 +7,7 @@
             src="../assets/img/section-rewind.png" height="80"
             alt="Rewind" />
         </h1>
-        <h2 class="grey--text text-center pa-0 ma-0">
+        <h2 class="red--text text--darken-3 text-center pa-0 ma-0">
           Looking back to the fun and amazing moments we had with Reimu
         </h2>
       </v-col>
@@ -206,13 +206,13 @@ export default {
     top:0;
     bottom:0;
     margin-left:-10px;
-    border-left:4px solid #c0c0c0;
+    border-left:4px solid #a0a0a0;
     .rewind-dot {
       width:30px;
       height:30px;
-      background:#0c1a28;
+      background:#fcfcfc;
       border-radius:20px;
-      border:4px solid #c0c0c0;
+      border:4px solid #a0a0a0;
       position:absolute;
       top:50%;
       margin-left:-17px;
