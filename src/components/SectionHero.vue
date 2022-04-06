@@ -1,14 +1,5 @@
 <template>
   <v-container class="section-grid section-box pb-8 mb-16">
-    <!-- <v-row no-gutters class="mb-4">
-      <v-col cols="12">
-        <h1 class="yellow--text text--darken-3 text-center pa-0 mx-0 my-0">
-          <img
-            src="../assets/img/section-happy.png" height="120"
-            alt="Happy 6-Months Anniversary Reimu!" />
-        </h1>
-      </v-col>
-    </v-row> -->
     <v-row no-gutters class="pt-8">
       <v-col cols="6"
         class="text-right black--text text-h5
@@ -20,7 +11,7 @@
       <v-col cols="6" class="pr-8">
         <iframe title="feature-video"
           width="100%" height="330"
-          src="https://www.youtube.com/embed/fZsRQdLLhIQ"
+          src="https://www.youtube.com/embed/Oy990KWx9n8"
           frameborder="0"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
           allowfullscreen>
