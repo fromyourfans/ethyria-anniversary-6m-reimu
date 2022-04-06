@@ -11,7 +11,7 @@
     </v-row>
     <v-row no-gutters class="px-16">
       <v-col>
-        <v-img src="../assets/mural.jpg" />
+        <v-img src="../assets/reimu-6months.jpg" />
       </v-col>
     </v-row>
   </v-container>
