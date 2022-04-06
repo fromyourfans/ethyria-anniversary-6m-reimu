@@ -265,6 +265,10 @@ export default {
     background:#B90B4A;
     border-radius:10px;
     color:#fff;
+    max-height:280px;
+    overflow-y:auto;
+    overflow-x:hidden;
   }
+
 }
 </style>
