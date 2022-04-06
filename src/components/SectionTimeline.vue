@@ -10,6 +10,9 @@
         <h2 class="red--text text--darken-3 text-center pa-0 ma-0">
           Looking back to the fun and amazing moments we had with Reimu
         </h2>
+        <h4 class="grey--text text--darken-2 text-center pa-0 ma-0">
+          Note: Messages beside each clip is randomized every refresh
+        </h4>
       </v-col>
     </v-row>
     <v-row no-gutters class="rewind-item">

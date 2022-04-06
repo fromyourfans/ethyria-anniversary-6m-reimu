@@ -60,7 +60,6 @@ export default {
       setTimeout(() => {
         this.shuffleCards();
         this.$root.$emit('timelineCards', this.cards.slice(0, 6));
-        this.cards = this.cards.slice(6);
         this.reSortCards();
         this.$nextTick(() => {
           twemoji.parse(document.body);
