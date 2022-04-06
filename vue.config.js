@@ -2,7 +2,7 @@ const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
-  publicPath: '/ethyria-anniversary-6m-reimu',
+  // publicPath: '/ethyria-anniversary-6m-reimu',
   outputDir: path.resolve(__dirname, 'docs'),
   transpileDependencies: [
     'vuetify',
@@ -19,11 +19,11 @@ module.exports = defineConfig({
         'og:title': 'Reimu 6-Month Anniversary',
         'og:type': 'website',
         'og:description': 'Happy 6th Month Anniversary Reimu!',
-        // 'og:image': 'https://birthday.ennaalouette.com/ogimage.png',
+        'og:image': 'https://6months.reimuendou.com/ogimage.png',
         'twitter:card': 'summary_large_image',
         'twitter:title': 'Reimu 6-Month Anniversary',
         'twitter:description': 'Happy 6th Month Anniversary Reimu!',
-        // 'twitter:image': 'https://birthday.ennaalouette.com/ogimage.png',
+        'twitter:image': 'https://6months.reimuendou.com/ogimage.png',
       };
       return args;
     });
@@ -39,7 +39,7 @@ module.exports = defineConfig({
         /(.*).js.map/g,
       ],
     },
-    assetsVersion: '2022_04_06_00_00',
+    assetsVersion: '2022_04_06_00_06',
     manifestOptions: {
       name: 'Reimu 6 Months',
       short_name: 'Reimu 6M',
