@@ -8,6 +8,7 @@
           Programming: jetrico<br />
           Header Artwork: @_YuRaKi_<br />
           Reimu assets (icons, sprites): @Nnnoira<br />
+          Web assets editing: Leoje<br />
           Drawing Board: Voldox, Green Tea, Nattsume, Zaraster, Mithra Theos,
             GonzaGKX, Korotony, Hien Anhh, Katha, jetrico<br />
         </p>
