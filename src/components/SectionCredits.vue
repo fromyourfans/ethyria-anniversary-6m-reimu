@@ -8,7 +8,6 @@
           Programming: jetrico<br />
           Header Artwork: @_YuRaKi_<br />
           Reimu assets (icons, sprites): @Nnnoira<br />
-          Feature Video: Enna's left feather<br />
           Drawing Board: Voldox, Green Tea, Nattsume, Zaraster, Mithra Theos,
             GonzaGKX, Korotony, Hien Anhh, Katha, jetrico<br />
         </p>
